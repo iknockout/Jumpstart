@@ -9,3 +9,17 @@ html {
   /* debug
   border: medium solid red; */
 }
+
+#headSection h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  color: white;
+  text-align: center;
+}
+
+#headSection p {
+  width: 51.3rem;
+  text-align: center;
+  /* debug
+  border: medium solid red; */
+}
