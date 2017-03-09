@@ -1,0 +1,11 @@
+html {
+  font-size: 16px;
+}
+
+#headSection {
+  background-image: url("./resources/jumbotron.png");
+  background-size: cover;
+  padding: 11.85rem 0;
+  /* debug
+  border: medium solid red; */
+}
