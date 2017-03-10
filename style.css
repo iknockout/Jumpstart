@@ -36,6 +36,10 @@ html {
   background-color: #399bd1;
 }
 
+#jButton:hover {
+  background-color: rgba(57,85,209,1.0);
+}
+
 .navbar li:first-child a {
   color: #399bd1;
 }
