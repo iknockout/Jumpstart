@@ -21,7 +21,7 @@ html {
 #headSection p {
   max-width: 51.3rem;
   width: 100%;
-  text-align: center;
+  margin: 0 auto;
   /* debug
   border: medium solid red; */
 }
@@ -75,7 +75,7 @@ html {
 .format5 {
   max-width: 42rem;
   width: 100%;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .bold {
