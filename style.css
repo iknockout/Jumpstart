@@ -69,6 +69,7 @@ html {
 
 .format4 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .format5 {
@@ -100,12 +101,6 @@ html {
   padding: 5.2rem 0;
 }
 
-#lastSection p {
-  text-align: center;
-  /* debug
-  border: medium solid red; */
-}
-
 @media only screen and (max-width: 460px) {
   nav img {
     display: none;
@@ -119,4 +114,9 @@ html {
   #projects {
     padding-bottom: 0;
   }
+}
+
+#rowDebug {
+  /* debug
+  border: medium solid red; */
 }
