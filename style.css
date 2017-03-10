@@ -18,20 +18,29 @@ html {
 }
 
 #headSection p {
-  width: 51.3rem;
+  max-width: 51.3rem;
+  width: 100%;
   text-align: center;
   /* debug
   border: medium solid red; */
 }
 
-/*
+#jButtonRow {
+  padding-top: 2.8rem;
+}
+
 #jButton {
   padding: 1.3rem 0;
   width: 11.4rem;
   background-color: #399bd1;
 }
-*/
 
 .navbar li:first-child a {
   color: #399bd1;
+}
+
+@media only screen and (max-width: 460px) {
+  nav img {
+    display: none;
+  }
 }
