@@ -40,12 +40,6 @@ html {
   color: #399bd1;
 }
 
-#featuredProject h2 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #399bd1;
-}
-
 #featuredProject img {
   width: 100%;
   height: auto;
@@ -57,19 +51,34 @@ html {
   border: medium solid red; */
 }
 
-#format1 {
-  font-size: 1.3rem;
+.format1 {
   font-weight: bold;
   color: #399bd1;
 }
 
-#format2 li {
+.format2 {
+  font-size: 1.7rem;
+}
+
+.format3 {
+  font-size: 1.3rem;
+}
+
+#featuredProject li {
   color: rgba(0,0,0,0.7);
   line-height: 1.4;
+}
+
+#projects img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 460px) {
   nav img {
     display: none;
+  }
+  #headSection h1 {
+    font-size: 5.7rem;
   }
 }
