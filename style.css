@@ -113,4 +113,10 @@ html {
   #headSection h1 {
     font-size: 5.7rem;
   }
+  #projects p {
+    padding-bottom: 5.85rem;
+  }
+  #projects {
+    padding-bottom: 0;
+  }
 }
